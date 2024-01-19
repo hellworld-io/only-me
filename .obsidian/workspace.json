@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f22f9b546479ba74",
+        "id": "50d6bcd66775913e",
         "type": "tabs",
         "children": [
           {
-            "id": "edd332a5d670d1e7",
+            "id": "971b37d6bf939f2f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "40dfdab30126ca9d",
+  "active": "971b37d6bf939f2f",
   "lastOpenFiles": [
+    "Archive/README.md",
+    "Resource/README.md",
+    "Area/README.md",
+    "Project/README.md",
     "Archive",
     "Resource",
     "Area",
