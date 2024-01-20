@@ -1,1 +1,1 @@
-# Obsidian 공유용 
+# Obsidian 정리 

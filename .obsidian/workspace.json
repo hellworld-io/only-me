@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "50d6bcd66775913e",
+        "id": "393cad34388da55d",
         "type": "tabs",
         "children": [
           {
-            "id": "971b37d6bf939f2f",
+            "id": "fd53fc106b5edcb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Archive/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Archive/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Archive/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Archive/README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "971b37d6bf939f2f",
+  "active": "fd53fc106b5edcb2",
   "lastOpenFiles": [
+    "README.md",
     "Archive/README.md",
     "Resource/README.md",
     "Area/README.md",
@@ -155,7 +148,6 @@
     "Archive",
     "Resource",
     "Area",
-    "Project",
-    "README.md"
+    "Project"
   ]
 }
