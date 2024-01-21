@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Area/README.md",
+                "file": "Area/독서/프로덕트 매니지먼트.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Area/README.md",
+                "file": "Area/독서/프로덕트 매니지먼트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Area/README.md",
+                "file": "Area/독서/프로덕트 매니지먼트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Area/README.md"
+                "file": "Area/독서/프로덕트 매니지먼트.md"
               }
             }
           }
@@ -148,13 +148,15 @@
   },
   "active": "fd53fc106b5edcb2",
   "lastOpenFiles": [
+    "Area/README.md",
+    "Area/독서/프로덕트 매니지먼트.md",
+    "Area/독서",
+    "Project/README.md",
     "Project/TODO/2024-01/2024-01-26.md",
     "Project/TODO/2024-01/2024-01-25.md",
     "Project/TODO/2024-01/2024-01-24.md",
     "Project/TODO/2024-01/2024-01-23.md",
     "Project/TODO/2024-01",
-    "Project/README.md",
-    "Area/README.md",
     "Project/do-fun",
     "Area/TODO/무제 파일.md",
     "Project/TODO",
