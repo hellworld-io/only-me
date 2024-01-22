@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md",
+                "file": "Project/do-fun/서버 구성.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md",
+                "file": "Project/do-fun/서버 구성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md",
+                "file": "Project/do-fun/서버 구성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md"
+                "file": "Project/do-fun/서버 구성.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "fd53fc106b5edcb2",
   "lastOpenFiles": [
-    "Area/README.md",
+    "Resource/한국 무속신 참고.md",
+    "Resource/README.md",
+    "Project/do-fun/서버 구성.md",
     "Area/독서/프로덕트 매니지먼트.md",
+    "Project/do-fun",
+    "Area/README.md",
     "Area/독서",
     "Project/README.md",
     "Project/TODO/2024-01/2024-01-26.md",
@@ -163,7 +167,6 @@
     "Project/코틀린",
     "README.md",
     "Archive/README.md",
-    "Resource/README.md",
     "Archive",
     "Resource",
     "Area",
