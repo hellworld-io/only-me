@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/do-fun/서버 구성.md",
+                "file": "Resource/한국 무속신 참고.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/do-fun/서버 구성.md",
+                "file": "Resource/한국 무속신 참고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/do-fun/서버 구성.md",
+                "file": "Resource/한국 무속신 참고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/do-fun/서버 구성.md"
+                "file": "Resource/한국 무속신 참고.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "fd53fc106b5edcb2",
   "lastOpenFiles": [
+    "Project/do-fun/서버 구성.md",
     "Resource/한국 무속신 참고.md",
     "Resource/README.md",
-    "Project/do-fun/서버 구성.md",
     "Area/독서/프로덕트 매니지먼트.md",
     "Project/do-fun",
     "Area/README.md",
