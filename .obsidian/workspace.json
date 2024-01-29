@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/do-fun/프로젝트 구조.md",
+                "file": "Project/do-fun/서버 설정.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/do-fun/프로젝트 구조.md",
+                "file": "Project/do-fun/서버 설정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/do-fun/프로젝트 구조.md",
+                "file": "Project/do-fun/서버 설정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/do-fun/프로젝트 구조.md"
+                "file": "Project/do-fun/서버 설정.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "3489430cf87c343b",
   "lastOpenFiles": [
-    "Project/do-fun/서버 설정.md",
     "Project/do-fun/프로젝트 구조.md",
+    "Project/do-fun/서버 설정.md",
     "Project/do-fun/로또 번호 생성.md",
     "Project/코틀린/코틀린 완벽 가이드.md",
     "Project/TODO/2024-02/2024-02-04(일).md",
