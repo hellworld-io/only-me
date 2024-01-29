@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "393cad34388da55d",
+        "id": "ba5a80e6beb85ddc",
         "type": "tabs",
         "children": [
           {
-            "id": "fd53fc106b5edcb2",
+            "id": "3489430cf87c343b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/TODO/2024-01/2024-01-23.md",
+                "file": "Project/do-fun/프로젝트 구조.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/TODO/2024-01/2024-01-23.md",
+                "file": "Project/do-fun/프로젝트 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/TODO/2024-01/2024-01-23.md",
+                "file": "Project/do-fun/프로젝트 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/TODO/2024-01/2024-01-23.md"
+                "file": "Project/do-fun/프로젝트 구조.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,17 +146,27 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fd53fc106b5edcb2",
+  "active": "3489430cf87c343b",
   "lastOpenFiles": [
+    "Project/do-fun/서버 설정.md",
+    "Project/do-fun/프로젝트 구조.md",
+    "Project/do-fun/로또 번호 생성.md",
     "Project/코틀린/코틀린 완벽 가이드.md",
-    "Area/독서/프로덕트 매니지먼트.md",
-    "Project/do-fun/서버 구성.md",
-    "Area/README.md",
+    "Project/TODO/2024-02/2024-02-04(일).md",
+    "Project/TODO/2024-02/2024-02-03(토).md",
+    "Project/TODO/2024-02/2024-02-01.md",
+    "Project/TODO/2024-02/2024-02-02.md",
     "Resource/한국 무속신 참고.md",
-    "Project/TODO/2024-01/2024-01-26.md",
-    "Project/TODO/2024-01/2024-01-25.md",
-    "Project/TODO/2024-01/2024-01-24.md",
+    "Project/TODO/2024-01/2024-01-31.md",
+    "Project/TODO/2024-01/2024-01-30.md",
+    "무제 파일.md",
     "Project/TODO/2024-01/2024-01-23.md",
+    "Project/TODO/2024-01/2024-01-24.md",
+    "Project/TODO/2024-01/2024-01-25.md",
+    "Project/TODO/2024-01/2024-01-26.md",
+    "Project/TODO/2024-02",
+    "Area/독서/프로덕트 매니지먼트.md",
+    "Area/README.md",
     "Project/TODO/2024-01",
     "Project/TODO",
     "Area/독서",
@@ -171,7 +181,6 @@
     "Resource/README.md",
     "Archive",
     "Resource",
-    "Area",
-    "Project"
+    "Area"
   ]
 }
