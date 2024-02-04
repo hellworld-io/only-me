@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/TODO/2024-02/2024-02-08.md",
+                "file": "Project/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/TODO/2024-02/2024-02-08.md",
+                "file": "Project/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/TODO/2024-02/2024-02-08.md",
+                "file": "Project/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/TODO/2024-02/2024-02-08.md"
+                "file": "Project/README.md"
               }
             }
           }
@@ -148,26 +148,27 @@
   },
   "active": "3489430cf87c343b",
   "lastOpenFiles": [
+    "Project/TODO/2024-02/2024-02-03(토).md",
+    "Project/README.md",
+    "Project/TODO/2024-02/2024-02-05.md",
+    "Project/TODO/2024-02/2024-02-08.md",
     "Project/TODO/2024-02/2024-02-07.md",
     "Project/TODO/2024-02/2024-02-06.md",
-    "Project/TODO/2024-02/2024-02-05.md",
-    "Project/TODO/2024-01/2024-01-31.md",
-    "Project/TODO/2024-01/2024-01-30.md",
-    "Project/TODO/2024-01/2024-01-26.md",
-    "Project/TODO/2024-01/2024-01-25.md",
-    "Project/TODO/2024-01/2024-01-24.md",
     "Project/TODO/2024-01/2024-01-23.md",
+    "Project/TODO/2024-01/2024-01-24.md",
+    "Project/TODO/2024-01/2024-01-25.md",
+    "Project/TODO/2024-01/2024-01-26.md",
+    "Project/TODO/2024-01/2024-01-30.md",
+    "Project/TODO/2024-01/2024-01-31.md",
     "Area/독서/프로덕트 매니지먼트.md",
     "Project/do-fun/서버 설정.md",
     "Project/do-fun/프로젝트 구조.md",
     "Project/do-fun/로또 번호 생성.md",
-    "Project/TODO/2024-02/2024-02-08.md",
     "Project/TODO/2024-02/2024-02-02(금).md",
     "Project/TODO/2024-02/2024-02-02.md",
     "Project/TODO/2024-02/2024-02-01.md",
     "Project/코틀린/코틀린 완벽 가이드.md",
     "Project/TODO/2024-02/2024-02-04(일).md",
-    "Project/TODO/2024-02/2024-02-03(토).md",
     "Resource/한국 무속신 참고.md",
     "무제 파일.md",
     "Project/TODO/2024-02",
@@ -176,7 +177,6 @@
     "Project/TODO",
     "Area/독서",
     "Area/TODO/2024-01-23.md",
-    "Project/README.md",
     "Project/do-fun",
     "Area/TODO/무제 파일.md",
     "Area/TODO",
