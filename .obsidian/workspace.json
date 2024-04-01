@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/README.md",
+                "file": "Project/TODO/2024-02/2024-02-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/README.md",
+                "file": "Project/TODO/2024-02/2024-02-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/README.md",
+                "file": "Project/TODO/2024-02/2024-02-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/README.md"
+                "file": "Project/TODO/2024-02/2024-02-05.md"
               }
             }
           }
@@ -177,10 +177,7 @@
     "Project/TODO/2024-04",
     "Project/TODO/2024-02/2024-02-03(토).md",
     "Project/TODO/2024-02/2024-02-06.md",
-    "Project/TODO/2024-01/2024-01-23.md",
-    "Project/TODO/2024-01/2024-01-24.md",
-    "Project/TODO/2024-01/2024-01-25.md",
-    "Project/TODO/2024-01/2024-01-26.md",
+    "Project/TODO/2024-02/2024-02-05.md",
     "Project/TODO/2024-01/2024-01-30.md",
     "Area/독서/프로덕트 매니지먼트.md",
     "Project/do-fun/서버 설정.md",
@@ -194,6 +191,7 @@
     "Project/do-fun",
     "Area/TODO",
     "Project/코틀린",
+    "README.md",
     "Archive",
     "Resource"
   ]
