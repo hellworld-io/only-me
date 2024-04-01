@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "25c017907141b271",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/TODO/2024-01/2024-01-31.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -148,41 +160,41 @@
   },
   "active": "3489430cf87c343b",
   "lastOpenFiles": [
-    "Project/TODO/2024-02/2024-02-03(토).md",
+    "Area/README.md",
+    "README.md",
+    "Resource/README.md",
+    "무제 파일.md",
     "Project/README.md",
-    "Project/TODO/2024-02/2024-02-05.md",
+    "Project/TODO/2024-04/2024-04-03.md",
+    "Archive/README.md",
+    "Project/TODO/2024-04/2024-04-04.md",
+    "Project/TODO/Daily TODO Sample.md",
+    "Project/TODO/2024-01/2024-01-31.md",
     "Project/TODO/2024-02/2024-02-08.md",
+    "Project/TODO/2024-02/2024-02-05.md",
     "Project/TODO/2024-02/2024-02-07.md",
+    "Project/코틀린/코틀린 완벽 가이드.md",
+    "Project/TODO/2024-04",
+    "Project/TODO/2024-02/2024-02-03(토).md",
     "Project/TODO/2024-02/2024-02-06.md",
     "Project/TODO/2024-01/2024-01-23.md",
     "Project/TODO/2024-01/2024-01-24.md",
     "Project/TODO/2024-01/2024-01-25.md",
     "Project/TODO/2024-01/2024-01-26.md",
     "Project/TODO/2024-01/2024-01-30.md",
-    "Project/TODO/2024-01/2024-01-31.md",
     "Area/독서/프로덕트 매니지먼트.md",
     "Project/do-fun/서버 설정.md",
     "Project/do-fun/프로젝트 구조.md",
     "Project/do-fun/로또 번호 생성.md",
     "Project/TODO/2024-02/2024-02-02(금).md",
-    "Project/TODO/2024-02/2024-02-02.md",
-    "Project/TODO/2024-02/2024-02-01.md",
-    "Project/코틀린/코틀린 완벽 가이드.md",
-    "Project/TODO/2024-02/2024-02-04(일).md",
-    "Resource/한국 무속신 참고.md",
-    "무제 파일.md",
     "Project/TODO/2024-02",
-    "Area/README.md",
     "Project/TODO/2024-01",
     "Project/TODO",
     "Area/독서",
-    "Area/TODO/2024-01-23.md",
     "Project/do-fun",
-    "Area/TODO/무제 파일.md",
     "Area/TODO",
     "Project/코틀린",
     "Archive",
-    "Resource",
-    "Area"
+    "Resource"
   ]
 }
