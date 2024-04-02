@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6a9b237d988045b7",
+        "id": "ba5a80e6beb85ddc",
         "type": "tabs",
         "children": [
           {
-            "id": "3d8e58b5c2748df8",
+            "id": "3489430cf87c343b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md",
+                "file": "Project/TODO/2024-02/2024-02-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md",
+                "file": "Project/TODO/2024-02/2024-02-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md",
+                "file": "Project/TODO/2024-02/2024-02-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Area/독서/프로덕트 매니지먼트.md"
+                "file": "Project/TODO/2024-02/2024-02-05.md"
               }
             }
           }
@@ -146,35 +146,39 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3d8e58b5c2748df8",
+  "active": "3489430cf87c343b",
   "lastOpenFiles": [
-    "Project/코틀린/코틀린 완벽 가이드.md",
-    "README.md",
-    "Project/README.md",
+    "Project/TODO/Daily TODO Sample.md",
     "Project/TODO/2024-04/2024-04-04.md",
     "Project/TODO/2024-04/2024-04-03.md",
+    "Project/TODO/2024-04",
     "Project/TODO/2024-01/2024-01-31.md",
-    "Project/TODO/2024-02/2024-02-05.md",
-    "Area/README.md",
-    "Resource/README.md",
-    "무제 파일.md",
-    "Archive/README.md",
-    "Project/TODO/Daily TODO Sample.md",
     "Project/TODO/2024-02/2024-02-08.md",
     "Project/TODO/2024-02/2024-02-07.md",
-    "Project/TODO/2024-04",
-    "Project/TODO/2024-02/2024-02-03(토).md",
     "Project/TODO/2024-02/2024-02-06.md",
+    "Project/TODO/2024-02/2024-02-05.md",
     "Project/TODO/2024-01/2024-01-30.md",
+    "Project/TODO/2024-02/2024-02-02(금).md",
+    "Project/TODO/2024-02/2024-02-01.md",
     "Area/독서/프로덕트 매니지먼트.md",
     "Project/do-fun/서버 설정.md",
     "Project/do-fun/프로젝트 구조.md",
     "Project/do-fun/로또 번호 생성.md",
-    "Project/TODO/2024-02/2024-02-02(금).md",
+    "Project/코틀린/코틀린 완벽 가이드.md",
+    "Project/TODO/2024-02/2024-02-04(일).md",
+    "Project/TODO/2024-02/2024-02-03(토).md",
+    "Resource/한국 무속신 참고.md",
+    "무제 파일.md",
+    "Project/TODO/2024-01/2024-01-23.md",
+    "Project/TODO/2024-01/2024-01-24.md",
+    "Project/TODO/2024-01/2024-01-25.md",
+    "Project/TODO/2024-01/2024-01-26.md",
     "Project/TODO/2024-02",
+    "Area/README.md",
     "Project/TODO/2024-01",
     "Project/TODO",
     "Area/독서",
+    "Area/TODO/2024-01-23.md",
     "Project/do-fun",
     "Area/TODO",
     "Project/코틀린",
