@@ -56,33 +56,53 @@ Deploying an application is just one step.
 
 The other is that the application needs to handle the user demand and users have certain expectations of a modern application.
 
-	    demand
-	        1. 수요: 소비자가 특정 상품이나 서비스를 구매하길 원하는 양입니다. 가격, 소득 수준, 개인 취향 등 여러 요인에 의해 영향을 받습니다.
-	            예: "There is a high demand for electric vehicles due to environmental concerns." (환경 문제로 인해 전기 자동차에 대한 수요가 높다.)
-	        2. 요구: 어떤 것을 강하게 요청하거나 필요로 하는 상태입니다. 개인이나 집단이 특정 행동, 제품, 권리 등을 요구하는 경우를 말합니다.
-	            예: "The workers demand better working conditions." (근로자들은 더 나은 근무 조건을 요구한다.)
-	        3. 법률 용어로의 사용: 법률에서는 특정 행동을 하도록 요구하는 공식적인 요청이나 명령을 의미하기도 합니다.
-	        예: "The demand letter was sent to the company for unpaid wages." (미지급 임금에 대해 회사에 요구서가 보내졌다.)
+```
+demand : 수요, 요구
+  1. 경제적 수요 : 특정 상품이나 서비스에 대한 소비자의 욕구와 필요.
+   The demand for electric cars is increasing. (전기차에 대한 수요가 증가하고 있습니다.)
+  2. 요구 사항 : 특정 조건이나 행동에 대한 강한 요청 또는 필요.
+   The job has high demands. (그 일은 많은 요구 사항이 있습니다.)
+  3. 요청 : 무언가를 강하게 요청하거나 요구하는 행위.
+   The manager's demands were unreasonable. (관리자의 요구는 불합리했습니다.)
 
-	    certain : 특정한, 확실한
-	    expectation
-		    기대, 예상, 기대치와 같은 의미를 가집니다. 보통 무엇인가를 향한 사람들의 예측, 바람, 또는 요구 사항과 관련된 상황에서 사용됩니다. 개인적인 기대일 수도 있고, 직장, 학교, 또는 다른 환경에서의 성과에 대한 기대일 수도 있습니다. 예를 들어, "The teacher's expectations for her students are very high"라는 문장에서는 선생님이 그녀의 학생들에 대해 가지고 있는 높은 기대를 의미합니다.
+handle : 처리하다, 관리하다, 다루다
+
+certain : 특정한, 확실한
+
+expectation : 기대, 예상, 기대치
+
+modern : 현대의, 최신의
+```
 
 
 We want our web services to respond fast and have low latencies.
+```
+latency : 지연시간, 대기시간
+ Low latency : 낮은 지연 시간, 빠른 반응
+ High latency : 높은 지연 시간, 느린 반응
+ 
+```
 
-	latencies : 주로 시간의 지연을 나타내는 단어입니다. 특히, 컴퓨터 과학 분야에서는 데이터 전송, 응답 시간 등과 같은 프로세스의 시간 지연을 설명할 때 사용됩니다. 따라서 "latencies"는 데이터가 전송되거나 처리되는 동안 발생하는 지연이나 지연의 여러 형태를 의미합니다.
-
-The applications should be highly available 24 over seven 365 days a year.
-	The applications should be highly available 24/7, 365 days a year.
-
-The application needs to be scalable and ideally autoscale on higher user demands.
-	ideally
-		이상적으로, 이상적인 상황에서, 이상적으로는의 의미를 가지고 있습니다. 예를 들어, "Ideally, we should finish this project by the end of the week"는 "이상적으로는, 우리는 이번 주말까지 이 프로젝트를 끝내야 합니다"라는 의미입니다.
 
 And last but not least, the applications need to be failure resistant.
 
+```
+not least : 특히, 결코 적지 않은
+ 이 표현은 앞서 언급한 사항들과 마찬가지로 중요하다는 것을 강조하기 위해 사용됩니다.
+
+the applications need to be failure resistant
+ 고장에 강해야 한다, 장애에 견딜 수 있어야 한다
+```
+
 Even if there is a failure in the application, not the whole system should go down.
+
+```
+even : 평등한, 동일한, 변동이나 흔들림이 없는
+
+Even if there is a failure in the application
+  even : 어떤 상황에서도 혹은 무엇이든지
+
+```
 
 It should stay up and return a response in a timely manner.
 
