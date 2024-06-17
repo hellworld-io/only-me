@@ -1,5 +1,4 @@
 
-
 Hello and welcome to the Learn Vertex Reactive Microservices Course Instruction.
 
 We are living in a world where the internet is used by more than 3 billion people.
