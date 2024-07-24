@@ -6,9 +6,8 @@
 	- oracle VM || digitalocean || vultr 
 - db
 	- sqlite, postgresql
--  front 
-	- svelt
-- app
+-  app && front 
+	- flutter
 
 ## 기능
 * 개인 블로그
