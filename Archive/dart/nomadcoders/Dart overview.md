@@ -3,11 +3,38 @@
 
 # Dart overview
 
-![Dart product logo](https://dart.dev/assets/img/rI9RW6c-dy-1000.png)
+![Dart product logo](https://dart-ko.dev/assets/img/logo_lockup_dart_horizontal.png)
 
 Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a [flexible execution runtime platform](https://dart.dev/overview#platform) for app frameworks.
 
+```
+optimized : 최적화된
+offer : 제공, 권하다, 팔려고 내놓다 (put up), 기도, 바치다, 나타나다, 제시하다, 헌정하다
+productive : 생산적인
+paired with : ~과 짝을 이루다.
+pair : 쌍
+flexible : 유연한, 융통성 있는
+execute : 실행하다.
+execution : 실행
+```
+
+```
+Dart는 모든 플랫폼에서 빠른 앱을 개발하기 위한 클라이언트 최적화 언어입니다. 그 목표는 다중 플랫폼 개발을 위한 가장 생산적인 프로그래밍 언어를 제공하는 것이며, 앱 프레임워크를 위한 유연한 실행 런타임 플랫폼과 결합됩니다.
+```
+
 Languages are defined by their _technical envelope_—the choices made during development that shape the capabilities and strengths of a language. Dart is designed for a technical envelope that is particularly suited to client development, prioritizing both development (sub-second stateful hot reload) and high-quality production experiences across a wide variety of compilation targets (web, mobile, and desktop).
+
+```
+define : 정의하다, (뜻)밝히다, 규정짓다
+envelope : 봉투, 구조, 영역, 범위
+shape : 모양, 형성하다, 상상하다
+capabilities : 능력, 가능성
+strengths : 강점
+```
+
+```
+언어는 기술적 범위, 즉 언어의 역량과 강점을 형성하는 개발 중에 내린 선택에 따라 정의됩니다.
+```
 
 Dart also forms the foundation of [Flutter](https://flutter.dev/). Dart provides the language and runtimes that power Flutter apps, but Dart also supports many core developer tasks like formatting, analyzing, and testing code.
 
