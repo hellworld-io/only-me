@@ -107,3 +107,28 @@ void main() {
 		name ??= 'bbb'; //name이 null일때 값 셋팅
 	}
 ```
+
+## Typedef
+- 자료형 데이터를 alias를 만들어 사용할 수 있는 기능.
+
+```
+	// 변수명은 사용자가 마음대로 설정 가능.  
+	//Map, Set도 사용가능.  
+	typedef ListOfInts = List<int>;  
+	  
+	//List<int> 자료형을 typedef를 사용하기 전  
+	List<int> reverseListOfNumbers(List<int> numList) {  
+		var reversedList = numList.reversed.toList();  
+		return reversedList;  
+	}  
+	  
+	//typedef를 사용  
+	ListOfInts reverseListOfNumbers(ListOfInts numList) {  
+		var reversedList = numList.reversed.toList();  
+		return reversedList;  
+	} 
+	
+	void main() {  
+		print(reverseListOfNumbers([1,2,3]));  
+	}
+```
