@@ -134,3 +134,106 @@
 		);
 	}
 ```
+
+## Recap  
+```
+	class Player {  
+		final String name;  
+		int xp;  
+		String team;  
+		  
+		Player.fromJson(Map<String, dynamic> playJson) :  
+		name = playJson['name'],  
+		team = playJson['team'],  
+		xp = playJson['xp'],  
+	  
+		void sayHello() {  
+			print("Hi my name is $name");  
+		}
+	}
+	
+	void main() {  
+		//API를 통해서 json 값을 받았을때 json값으로 class 생성.  
+		var apiData = [  
+			{  
+				"name":"aaa",  
+				"team":"blue",  
+				"xp":0  
+			},  
+			{  
+				"name":"bbb",  
+				"team":"red",  
+				"xp":0  
+			},  
+			{  
+				"name":"ccc",  
+				"team":"green",  
+				"xp":0  
+			},  
+		];  
+		  
+		apiData.forEach((playerJson) {  
+			var player = Player.fromJson(playerJson);  
+			player.sayHello();  
+		})  
+	}  
+```
+
+## Cascade Notation
+- class 인스턴스 행성 후 인스턴스 변수명을 반복적으로 사용하는 불편함을 해소해줌.  
+- 인스턴스 변수명 대신 .. 으로 대체
+```  
+	class Player {  
+		String name;  
+		int xp;  
+		String team;  
+		  
+		Player({required this.name, required this.xp, required this.team, required this.age});  
+		  
+		void sayHello() {  
+		print("Hi my name is $name");  
+		}  
+	}
+	
+	void main() {  
+		var coma = Player(name : 'aaa', xp : 12000, team : 'red');  
+		//값을 변경할때 반복적으로 인스턴스 변수를 사용하여야 함.  
+		coma.name = 'bbb';  
+		coma.xp = 100;  
+		coma.team = 'blue';  
+		  
+		//..을 사용하여 사용할 수 있음. class 생성자 선언에서 세미콜론 제거 후 사용해야 함.  
+		var coma = Player(name : 'aaa', xp : 12000, team : 'red')  
+		..name = 'bbb'  
+		..xp = 100  
+		..team = 'blue'  
+		..sayHello();  
+	}  
+```
+
+## Enums
+```  
+	enum Team {red, blue }  
+	  
+	class Player {  
+		String name;  
+		int xp;  
+		  
+		//String team;  
+		Team team;    //enum 타입으로 변경  
+		  
+		Player({required this.name, required this.xp, required this.team, required this.age});  
+		  
+		void sayHello() {  
+			print("Hi my name is $name");  
+		}  
+	}  
+	void main() {  
+		// var coma = Player(name : 'aaa', xp : 12000, team : 'red');  
+		// enum으로 값 설정 변경  
+		var coma = Player(name : 'aaa', xp : 12000, team : Team.red);  
+		coma.name = 'bbb';  
+		coma.xp = 100;  
+		coma.team = Team.blud;  
+	}  
+```
