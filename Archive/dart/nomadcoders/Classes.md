@@ -237,3 +237,109 @@
 		coma.team = Team.blud;  
 	}  
 ```
+
+## Abstract Classes
+- 추상 클레스는 객체로 생성이 불가능.  
+- 직접 구현해야하는 메소드를 모아놓은 클레스
+
+```  
+	//추상 클레스 생성. 추상 클레스는 구현구가 없는 메소드만 있음.  
+	abstract class Human {  
+		void walk();  
+	}  
+	  
+	enum Team {red, blue }  
+	  
+	//Human 추상 클레스를 확장하여 walk 메소드를 상황에 맞게 구현  
+	class Player extends Human{  
+		String name;  
+		int xp;  
+		  
+		//String team;  
+		Team team;    //enum 타입으로 변경  
+		  
+		Player({required this.name, required this.xp, required this.team, required this.age});  
+		  
+		void walk() {  
+			print(I am walking.);  
+		}  
+		  
+		void sayHello() {  
+			print("Hi my name is $name");  
+		}  
+	}
+	
+	void main() {  
+		// var coma = Player(name : 'aaa', xp : 12000, team : 'red');  
+		// enum으로 값 설정 변경  
+		var coma = Player(name : 'aaa', xp : 12000, team : Team.red);  
+		coma.name = 'bbb';  
+		coma.xp = 100;  
+		coma.team = Team.blud;  
+	}  
+```
+
+## Inheritance  
+- 상속은 부모 클레스를 자식 클레스에서 상속받아 사용하는 것.  
+- 자식 클레스에서 super를 사용하여 부모클레스를 사용.
+
+```  
+	class Human {  
+		final String name;  
+		  
+		Human({this.name});  
+		  
+		void sayHello() {  
+			print("Hello my name $name");  
+		}  
+	}  
+		  
+	enum Team {red, blue }  
+		  
+	class Player extends Human{  
+		final Team team;  
+		  
+		//자식 클레스에서 부모 클레스 호출을 위해 supper을 사용  
+		Player({require this.team, require String name}) : super(name : name);  
+		  
+		//부모 클레스의 메소드 재사용  
+		@override  
+		void sayHello() {  
+			super.sayHello();  
+			print("my team ${team}");  
+		}  
+	  
+	} 
+	 
+	void main() {  
+		var player = Player(  
+			team: Team.red,  
+			name: 'aaa'  
+		);  
+	}  
+```
+
+## Mixins
+- 생성자가 없는 클레스.  
+- 사용시 with를 작성하여 사용.  
+- 여러 클레스의 프로퍼티와 메소드를 다 가져와서 사용.
+
+```  
+	class Strong {  
+		final double strongLevel = 100.10;  
+	}  
+	  
+	class QuickRunner {  
+		void run() {  
+			print("ruuuun!!");  
+		}  
+	}  
+	  
+	class Player with Strong, QuickRunner {
+	}  
+	  
+	void main() {  
+		var player.strongLevel;  
+		var player.run();  
+	}  
+```
