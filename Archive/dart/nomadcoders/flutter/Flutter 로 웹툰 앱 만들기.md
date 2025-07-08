@@ -18,30 +18,87 @@
 - vscode dart, flutter 플러그인 설치
 
 ## Hello World
+* flutter 앱은 Widget로 구성되어 있음
+- StatelessWidget, StatefulWidget을 상속받아서 시작해야 함.
+- StatelessWidget vs StatefulWidget 비교
 
+| StatelessWidget | StatefulWidget       |
+| --------------- | -------------------- |
+| 상태가 변하지 않음      | 상태가 변할 수 있음          |
+| build() 메서드만 있음 | createState() 메서드 필요 |
+| 한 번 생성되면 변경 안됨  | setState()로 재빌드 가능   |
+| 성능이 더 좋음        | 상태 변화 시 성능 오버헤드      |
+| 메모리 사용량 적음      | 상태 객체로 인한 메모리 사용     |
+- StatelessWidget
+	- 한번 만들면 변경 불가능한 위젯
+	- build 메서드를 통해 화면을 그림
+
+* Scaffold
+	* Flutter에서 앱의 기본 레이아웃 구조를 제공하는 위젯.
+	* Material Design의 기본 페이지 구조를 구현.
+	* Scaffold 없이 사용하면:
+		- 상태바와 겹칠 수 있음
+		- 시스템 UI와 충돌 가능
+		- 키보드 표시 시 레이아웃 문제
+		- Material Design 가이드라인 위반
+	* Scaffold의 장점
+		1. 자동 레이아웃 관리
+			- 상태바, 네비게이션바와의 자동 조정
+			- 키보드 표시 시 자동 화면 조정
+		2. 일관된 디자인
+			- Material Design 표준 준수
+			- 플랫폼별 자동 최적화
+		3. 접근성 지원
+			- 스크린 리더 지원
+			- 키보드 네비게이션 지원
+		4. 반응형 레이아웃
+			- 다양한 화면 크기 자동 대응
+			- 방향 변경 시 자동 조정
+
+| 속성                       | 설명             | 예시                                     |
+| ------------------------ | -------------- | -------------------------------------- |
+| appBar                   | 상단 앱바          | AppBar(title: Text("제목"))              |
+| body                     | 메인 콘텐츠 영역      | Center(child: Text("내용"))              |
+| floatingActionButton     | 플로팅 액션 버튼      | FloatingActionButton(onPressed: () {}) |
+| bottomNavigationBar      | 하단 네비게이션       | BottomNavigationBar(items: [])         |
+| drawer                   | 왼쪽 사이드 메뉴      | Drawer(child: ListView())              |
+| endDrawer                | 오른쪽 사이드 메뉴     | Drawer(child: ListView())              |
+| backgroundColor          | 배경색            | Colors.white                           |
+| resizeToAvoidBottomInset | 키보드 표시 시 화면 조정 | true                                   |
+
+# UI Challenge
+
+## Financial Mobile IOS App UI 디자인
+
+### Text 박스에 예약 특수문자 사용
+* $ 기호 사용이 필요할 때 "\"를 추가하여 사용
+### Container
+* Flutter에서 가장 자주 사용되는 위젯 중 하나로, HTML의 div 태그와 유사한 역할을 하는 컨테이너
+*  Container의 주요 속성들
+
+| 속성         | 설명       | 예시                                |
+| ---------- | -------- | --------------------------------- |
+| width      | 너비 설정    | width: 100                        |
+| height     | 높이 설정    | height: 100                       |
+| color      | 배경색 설정   | color: Colors.blue                |
+| decoration | 고급 스타일링  | decoration: BoxDecoration(...)    |
+| padding    | 내부 여백    | padding: EdgeInsets.all(16)       |
+| margin     | 외부 여백    | margin: EdgeInsets.all(16)        |
+| alignment  | 자식 위젯 정렬 | alignment: Alignment.center       |
+| transform  | 변형 효과    | transform: Matrix4.rotationZ(0.1) |
+| child      | 자식 위젯    | child: Text("내용")                 |
+
+### EdgeInsets.symmetric
+- 대칭적인 패딩이나 마진을 설정할 때 사용하는 편리한 메서드
+- EdgeInsets.all - 모든 방향 동일
+- EdgeInsets.only - 개별적으로 설정
 ```
-	import 'package:flutter/material.dart';
-	
-	void main() {
-		runApp(App());  //위젯 App 클레스를 생성해야 함.
-	}
-	
-	// widget class 생성 시 StatelessWidget을 상속받아야 함.
-	// StatelessWidget 클레스는 build 메소드를 작성해야 함.
-	class App extends StatelessWidget {
-		@override
-		  Widget build(BuildContext context) {
-		    // CupertinoApp : IOS 스타일, MaterialApp : 구글 스타일
-		    return MaterialApp(
-		      home: Scaffold(
-		        appBar: AppBar(
-		          title: Text('Hello flutter!'),
-		        ),
-		        body: Center(
-		          child: Text('Hello world!'),
-		        ),
-		      ),
-		    );
-		  }
-	}
+	EdgeInsets.only(
+		top: 10,
+		right: 20,
+		bottom: 30,
+		left: 40,
+	)
+	// 결과: top: 10, right: 20, bottom: 30, left: 40
 ```
+- EdgeInsets.fromLTRB - 순서대로 설정
