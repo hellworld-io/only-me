@@ -1,5 +1,4 @@
 
-
 # Hello Flutter
 
 ## Installation
@@ -32,6 +31,16 @@
 - StatelessWidget
 	- 한번 만들면 변경 불가능한 위젯
 	- build 메서드를 통해 화면을 그림
+	- 정적인 UI 컴포넌트
+	- 단순한 텍스트나 이미지 표시
+	- 레이아웃 위젯들
+	- 상태 변화가 없는 경우
+- StatefulWidget
+	- 사용자 입력에 반응해야 할 때
+	- 애니메이션이 필요할 때
+	- 데이터가 시간에 따라 변할 때
+	- 폼 입력을 관리할 때
+	- 카운터, 토글, 슬라이더 등
 
 * Scaffold
 	* Flutter에서 앱의 기본 레이아웃 구조를 제공하는 위젯.
@@ -102,3 +111,28 @@
 	// 결과: top: 10, right: 20, bottom: 30, left: 40
 ```
 - EdgeInsets.fromLTRB - 순서대로 설정
+
+### Row MainAxisAlignment.spaceBetween
+- Row나 Column에서 자식 위젯들 사이에 균등한 공간을 만들어주는 정렬 방식
+- UI 요소들을 양 끝에 배치하고 나머지 공간을 균등하게 분배하는 매우 유용한 정렬 방식
+- 버튼 그룹이나 네비게이션 요소들을 배치할 때 자주 사용
+	- spaceBetween - 양끝 배치, 사이 공간 균등
+		- ``` 결과: [A] [B] [C] ```
+	- spaceAround - 모든 위젯 주변에 균등한 공간
+		- ``` 결과: [A] [B] [C] ```
+	- spaceEvenly - 모든 공간이 완전히 균등
+		- ``` 결과: [A] [B] [C] ```
+	- center - 중앙 정렬
+		- ``` 결과: [A][B][C] ```
+	- start - 시작점 정렬
+		- ``` 결과: [A][B][C] ```
+	- end - 끝점 정렬
+		- ``` 결과: [A][B][C] ```
+
+## Stateful Widgets
+
+### BuildContext
+- Flutter에서 위젯 트리 내에서 특정 위젯의 위치와 정보를 나타내는 핵심 개념
+- 위젯 트리에서 현재 위젯의 위치
+- 상위 위젯들에 대한 참조
+- 테마, 미디어 쿼리 등의 정보에 접근하는 통로
