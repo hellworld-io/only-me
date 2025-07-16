@@ -189,3 +189,59 @@
 
 ## **`ListView.separated()`**
 - `istView.builder`와 동일한 성능상 이점을 가지면서, 아이템 사이에 구분선을 쉽게 추가할 수 있습니다.
+
+## GestureDetector
+- Flutter에서 사용자의 터치, 탭, 드래그 등 다양한 제스처를 감지하고 처리하는 위젯
+- 사용자 인터랙션을 처리하는 핵심 위젯
+
+## Navigator.push(context, route)
+- Flutter의 네비게이션 시스템
+- 새로운 화면(페이지)을 스택에 추가
+- context: 현재 위젯 트리의 위치 정보
+- route: 이동할 페이지 정보
+
+## MaterialPageRoute
+- Material Design 스타일의 페이지 전환 효과
+- 오른쪽에서 왼쪽으로 슬라이드되는 애니메이션
+- builder: 새 페이지를 생성하는 함수
+
+## Hero
+- 두 화면 간의 위젯을 부드럽게 연결하는 애니메이션 효과를 제공하는 위젯
+- 같은 tag를 가진 Hero 위젯들이 화면 전환 시 연결됨
+- 첫 번째 화면의 위젯이 두 번째 화면의 위젯으로 부드럽게 변형
+- 크기, 위치, 모양이 자연스럽게 애니메이션됨
+
+## widget property
+- Flutter의 StatefulWidget에서 상위 위젯으로부터 전달받은 title 속성에 접근하는 코드
+	-  widget 키워드의 역할
+		- StatefulWidget의 구조:
+		- DetailScreen (StatefulWidget): 데이터를 보관
+		- _DetailScreenState (State): UI를 구성
+- StatefulWidget의 State 클래스에서 부모 위젯으로부터 전달받은 데이터에 접근하는 표준적인 방법
+
+```
+class DetailScreen extends StatefulWidget {
+  final String id, title, thumb; // 상위에서 전달받는 속성들
+  
+  const DetailScreen({
+    super.key,
+    required this.id,
+    required this.title,  // 이 title
+    required this.thumb,
+  });
+  
+  @override
+  State<DetailScreen> createState() => _DetailScreenState();
+}
+
+class _DetailScreenState extends State<DetailScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title), // widget.title로 접근
+      ),
+    );
+  }
+}
+```
